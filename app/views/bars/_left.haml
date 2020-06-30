@@ -1,5 +1,12 @@
 .main-left 
   .main-left-word ワード検索
+  = text_field  :search , id:"main-left-word-text"
   .main-left-land 土地検索（チェック形式）
+  =check_box_tag :check0
+  =label_tag :check0, "都道府県選択式にする"
   .main-left-type ダーツ台の種類（チェック形式）
+  =check_box_tag :check1
+  =label_tag :check1, "dartsLive"
+  =check_box_tag :check2
+  =label_tag :check2, "フェニックス"
   .main-left-point 評価検索
