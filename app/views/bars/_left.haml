@@ -1,12 +1,32 @@
 .main-left 
-  .main-left-word ワード検索
-  = text_field  :search , id:"main-left-word-text"
-  .main-left-land 土地検索（チェック形式）
-  =check_box_tag :check0
-  =label_tag :check0, "都道府県選択式にする"
-  .main-left-type ダーツ台の種類（チェック形式）
-  =check_box_tag :check1
-  =label_tag :check1, "dartsLive"
-  =check_box_tag :check2
-  =label_tag :check2, "フェニックス"
-  .main-left-point 評価検索
+  .main-left-word 
+    【ワード検索】
+    .main-left-word-serch
+    = text_field  :search , id:"main-left-word-text"
+  .main-left-land 
+    【土地検索】
+    .main-left-land-tag
+    =check_box_tag :check0
+    =label_tag :check0, "都道府県選択式にする"
+  .main-left-type 
+    【ダーツ台の種類】
+    .main-left-type-d
+    =check_box_tag :check1
+    =label_tag :check1, "DartsLive"
+    .main-left-type-f
+    =check_box_tag :check2
+    =label_tag :check2, "フェニックス"
+  .main-left-point 
+    【評価検索】
+    .main-left-point-1
+    =check_box_tag :check1
+    =label_tag :check1, "★☆☆☆"
+    .main-left-point-2
+    =check_box_tag :check2
+    =label_tag :check2, "★★☆☆"
+    .main-left-point-3
+    =check_box_tag :check3
+    =label_tag :check3, "★★★☆"
+    .main-left-point-4
+    =check_box_tag :check4
+    =label_tag :check4, "★★★★"
