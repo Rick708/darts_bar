@@ -6,40 +6,26 @@ Darts_bar
 
 ## 使用技術
 【インフラ】
-- AWS:EC2,S3
-- docker,docker-compose  
+- AWS:EC2,S3,docker,docker-compose  
 
 【フロントエンド】
-- HTML(haml)
-- CSS(Sass)
-- JavaScript
-- jQuery  
+- HTML(haml),CSS(Sass),JavaScript,jQuery  
 
 【バックエンド】
-- Ruby
-- Ruby on Rails
-- MySQL
+- Ruby,Ruby on Rails,MySQL
 
 【その他】
-- git
-- GitHub
+- git,GitHub,googleAPI
 
 ## 機能一覧  
 【ユーザー機能】
-- 新規登録
-- ログイン
-- ログアウト
-- 情報変更
-- ダーツバー投稿 
+- 新規登録,ログイン,ログアウト,情報変更,ダーツバー投稿 
 
 【ダーツバー】
-- googlemap表示
-- 一覧機能
-- 検索機能
-- 口コミ
+- googlemap表示,一覧機能,検索機能,口コミ
 
 ## 画像  
-No image
+<img width="1440" alt="スクリーンショット 2020-07-01 6 01 13" src="https://user-images.githubusercontent.com/56381794/86176817-84f31880-bb60-11ea-8ba2-7eb83835bd7c.png">
 
 # DB設計
 
