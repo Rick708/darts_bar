@@ -1,6 +1,26 @@
 .main-left{
-  background-color: blue;
+  background-color: white;
   width: 17%;
   float: left;
-  padding: 30px 30px;
+  padding: 0px 30px;
+  &-word{
+    font-size: 20px;
+    padding: 50px 0px; 
+    border-bottom: solid 1px #eeeeef;
+  }
+  &-land{
+    font-size: 20px;
+    padding: 50px 0px; 
+    border-bottom: solid 1px #eeeeef;
+  }
+  &-type{
+    font-size: 20px;
+    padding: 50px 0px;
+    border-bottom: solid 1px #eeeeef;
+  }
+  &-point{
+    font-size: 20px;
+    padding: 50px 0px;
+    border-bottom: solid 1px #eeeeef;
+  }
 }
