@@ -88,15 +88,3 @@ Darts_bar
 |bar_id|integer|null: false, foreign_key: true|
 ### Asociation
 - belongs_to :bar
-
-## commentsテーブル
-- コメントテーブル
-
-|Column|Type|Options|
-|------|----|-------|
-|content|text|null: false|
-|user_id|integer|null: false, foreign_key: true|
-|bar_id|integer|null: false, foreign_key: true|
-### Association
-- belongs_to :user
-- belongs_to :bar
